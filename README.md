@@ -1,0 +1,1 @@
+Boilerplate for a Meteor-based UPHS app. Includes oAuth2 login, bootstrap template, and optional dev->prod deployment script.
