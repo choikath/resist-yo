@@ -3,10 +3,14 @@ Router.configure({
  });
 Router.route('/', function () {
     this.render('home');
-});
+}, {name: 'home'}
+);
+
 Router.route('/about', function () {
     this.render('about');
-});
+}, {name: 'about'}
+);
+
 
 
 if (Meteor.isClient) {
