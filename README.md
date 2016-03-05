@@ -1,6 +1,6 @@
 Boilerplate for a Meteor-based UPHS app. Includes oAuth2 login, recommended meteor packages, bootstrap template, and optional dev->prod deployment script.
 
-= Installation
+# Installation
 1. Think of your app's nickname such as yourapp. Create /apps/yourapp and cd into it
 2. Clone the boilerplate repo and rename it /apps/yourapp/dev
 3. *Customize files*
@@ -25,7 +25,7 @@ Boilerplate for a Meteor-based UPHS app. Includes oAuth2 login, recommended mete
 - in the prod/settings.json file, change the contents
 
 
-= Running the app
+# Running the app
 - `chmod 755 /apps/yourapp/dev/server.sh`
 - `/apps/yourapp/dev/server.sh &`
 
