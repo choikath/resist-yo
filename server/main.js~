@@ -1,0 +1,12 @@
+    Meteor.startup(function () {
+	ServiceConfiguration.configurations.upsert(
+            { service: "mhealth" },
+            {
+		$set: {
+                    clientId: Meteor.settings.MHEALTH_ID,
+                    loginStyle: "redirect",
+                    secret: Meteor.settings.MHEALTH_SECRET
+		}
+            }
+	);
+    });

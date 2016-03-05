@@ -11,8 +11,8 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-	<li class="{{ activeIfTemplateIs 'home' }}">
-	  <a href="{{ pathFor 'home'}}">Home</a>
+	<li class="{{activeIfTemplateIs 'index' currentRouteName}}">
+	  <a href="{{ pathFor 'index'}}">Home</a>
 	</li>
 	<li class="{{ activeIfTemplateIs 'about' }}">
 	  <a href="{{pathFor 'about'}}">About</a>

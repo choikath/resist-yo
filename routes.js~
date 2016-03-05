@@ -1,0 +1,8 @@
+FlowRouter.route('/', {
+     subscriptions: function(params, queryParams) {
+
+     },
+    action: function() {
+        BlazeLayout.render('layout', {content: 'home'});
+  }
+});

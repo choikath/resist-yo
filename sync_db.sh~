@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Overwrite dev db with prod data
+
+fromDb='genmed_tracker_development'
+toDb='genmed_tracker_development_dev'
+
+mongo $toDb --eval "db.dropDatabase(); db.copyDatabase('$fromDb', '$toDb')"
