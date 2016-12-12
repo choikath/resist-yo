@@ -2,7 +2,7 @@
 
 ## Overwrite dev db with prod data
 
-fromDb='boilerplate'
-toDb='boilerplate_dev'
+fromDb='resist-yo'
+toDb='resist-yo_dev'
 
 mongo $toDb --eval "db.dropDatabase(); db.copyDatabase('$fromDb', '$toDb')"
